@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Form</title>
+    </head>
+
+    <body>
+
+        <h1>Data Validation and Sanitization</h1>
+
+        <h2>Book an Appointment</h2>
+
+        <form action="/appointments" method="post">
+
+            <label>
+                *Your Name:
+                <input type="text" name="name">
+            </label>
+
+            <label>
+                Your age in years:
+                <input type="text" name="age">
+            </label>
+
+            <label>
+                *Preferred Appointment Time:
+                <input type="text" name="time">
+            </label>
+
+            <label>
+                Your Postal Code:
+                <input type="text" name="postal">
+            </label>
+
+            <label>
+                Phone Number:
+                <input type="text" name="phone">
+            </label>
+
+            <button>Submit</button>
+        </form>
+
+    </body>
+
+</html>
